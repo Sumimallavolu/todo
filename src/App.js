@@ -6,6 +6,7 @@ import image1a from './Assets/image1a.png';
 
 function App() {
 
+  //hi
   const [names, setnames] = useState(JSON.parse(localStorage.getItem('cricketerNames')) || []);
   const [input, setInput] = useState('');
   const [editIndex, setEditIndex] = useState(-1);
