@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+
+#container{
+  border: solid black 3px;
+  margin-left: 30%;
+  margin-right:30%;
+  background-image:url(./Assets/bgimage.jpg);
+  background-repeat:no-repeat ;
+  background-size: 100% 100%;
+
+}
+ 
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+h1{
+ text-align: center;
+
+}
+@media  screen and (min-width:280px) and (max-width:800px){
+ #container{
+  margin-left: 2%;
+  margin-right: 2%;
+
+ }
+
+}
+  
+
+
+header{
+  border:black solid 1px;
+}
+body{
+  text-align:center;
+  margin-left:10 px;
+}
+
+img{
+  width:15px;
+  height:15px;
+  background-color: transparent;
+}
+li{
+  margin:15px 0;
+  border:black solid 1px;
+  background-color:ghostwhite  ;
+  margin-right: 10px;
+}
+li
+button{
+  background-color: ghostwhite;
+  width:55px;
+  height:35px;
+  border: solid black 3px;
+  margin-right:12px;
+
+}
+button:hover{
+  background-color: greenyellow;
+  border-radius: 5px 5px 5px 5px;
+  border: solid black 3px;
+ 
+  
+}
+input{
+  border-radius: 5px 0 0 5px;
+  border:solid black 3px;
+  width: 250px;
+  height: 25px;
+  background: transparent;
+  margin-left:  80px;
+  margin: 40px;
+
+}
